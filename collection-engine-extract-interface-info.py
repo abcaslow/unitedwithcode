@@ -19,7 +19,7 @@ in_block = False
 
 output = []
 
-for fn in glob.glob("genius_test/*"):
+for fn in glob.glob("sample_collection_engine_data/*"):
     fh = open(fn)
 
     # Parse filename, expected to be in IT-PIE format
